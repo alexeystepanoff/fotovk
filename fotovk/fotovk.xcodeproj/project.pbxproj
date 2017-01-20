@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E5E7F7D81D512EE894B05AC /* Pods_fotovk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 427FF2A14AF69EE0626163B9 /* Pods_fotovk.framework */; };
+		FA0E827F1E2F9CAB0008E42A /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E827E1E2F9CAB0008E42A /* ViewController3.swift */; };
+		FA0E82811E2FEEB10008E42A /* ButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E82801E2FEEB10008E42A /* ButtonSet.swift */; };
+		FA0E82831E3003CD0008E42A /* DesignTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0E82821E3003CD0008E42A /* DesignTextField.swift */; };
+		FA2D2F101DE57B7B00F4B728 /* fotovkbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2D2F0F1DE57B7B00F4B728 /* fotovkbase.swift */; };
+		FA37F13C1DE58EDF0060CDFD /* ViewControllerTableLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA37F13B1DE58EDF0060CDFD /* ViewControllerTableLink.swift */; };
+		FA63B3FD1DEEE5A100916CF0 /* vklink.png in Resources */ = {isa = PBXBuildFile; fileRef = FA63B3FC1DEEE5A100916CF0 /* vklink.png */; };
+		FA63B3FF1DEEE5B000916CF0 /* vkhome.png in Resources */ = {isa = PBXBuildFile; fileRef = FA63B3FE1DEEE5B000916CF0 /* vkhome.png */; };
+		FA71C34C1DE5853D00B7DA9B /* fotovkdelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA71C34B1DE5853D00B7DA9B /* fotovkdelegate.swift */; };
+		FA75B7CD1E0A58E3007D9251 /* fotovkgetuser.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA75B7CC1E0A58E3007D9251 /* fotovkgetuser.swift */; };
+		FAA8125E1E02C16100B9C1EE /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8125D1E02C16100B9C1EE /* CollectionViewCell.swift */; };
+		FAA812601E02C1A600B9C1EE /* PicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA8125F1E02C1A600B9C1EE /* PicViewController.swift */; };
+		FAA812621E02CDD200B9C1EE /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA812611E02CDD200B9C1EE /* ViewController2.swift */; };
+		FADC1E3C1E0D0F7300FD6A2B /* icl.png in Resources */ = {isa = PBXBuildFile; fileRef = FADC1E3B1E0D0F7300FD6A2B /* icl.png */; };
+		FAE3F6FC1E1FFAA000DFD14C /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAE3F6FB1E1FFAA000DFD14C /* CloudKit.framework */; };
+		FAEE1C431DE57ABD000472A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEE1C421DE57ABD000472A5 /* AppDelegate.swift */; };
+		FAEE1C481DE57ABD000472A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEE1C461DE57ABD000472A5 /* Main.storyboard */; };
+		FAEE1C4A1DE57ABD000472A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAEE1C491DE57ABD000472A5 /* Assets.xcassets */; };
+		FAEE1C4D1DE57ABD000472A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAEE1C4B1DE57ABD000472A5 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		427FF2A14AF69EE0626163B9 /* Pods_fotovk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_fotovk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		684035DB9A000AFEDD492235 /* Pods-fotovk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotovk.release.xcconfig"; path = "Pods/Target Support Files/Pods-fotovk/Pods-fotovk.release.xcconfig"; sourceTree = "<group>"; };
+		D312D18200BA2EB099071871 /* Pods-fotovk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-fotovk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-fotovk/Pods-fotovk.debug.xcconfig"; sourceTree = "<group>"; };
+		FA0E827E1E2F9CAB0008E42A /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		FA0E82801E2FEEB10008E42A /* ButtonSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSet.swift; sourceTree = "<group>"; };
+		FA0E82821E3003CD0008E42A /* DesignTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignTextField.swift; sourceTree = "<group>"; };
+		FA2D2F0F1DE57B7B00F4B728 /* fotovkbase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fotovkbase.swift; sourceTree = "<group>"; };
+		FA37F13B1DE58EDF0060CDFD /* ViewControllerTableLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerTableLink.swift; sourceTree = "<group>"; };
+		FA63B3FC1DEEE5A100916CF0 /* vklink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vklink.png; path = ../../pic/vklink.png; sourceTree = "<group>"; };
+		FA63B3FE1DEEE5B000916CF0 /* vkhome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = vkhome.png; path = ../../pic/vkhome.png; sourceTree = "<group>"; };
+		FA71C34B1DE5853D00B7DA9B /* fotovkdelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fotovkdelegate.swift; sourceTree = "<group>"; };
+		FA75B7CC1E0A58E3007D9251 /* fotovkgetuser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fotovkgetuser.swift; sourceTree = "<group>"; };
+		FA8B3EF81E1FF96400DE4BEE /* fotovk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = fotovk.entitlements; sourceTree = "<group>"; };
+		FAA8125D1E02C16100B9C1EE /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FAA8125F1E02C1A600B9C1EE /* PicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PicViewController.swift; sourceTree = "<group>"; };
+		FAA812611E02CDD200B9C1EE /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		FADC1E3B1E0D0F7300FD6A2B /* icl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icl.png; sourceTree = "<group>"; };
+		FAE3F6FB1E1FFAA000DFD14C /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FAEE1C3F1DE57ABD000472A5 /* fotovk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fotovk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAEE1C421DE57ABD000472A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAEE1C471DE57ABD000472A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAEE1C491DE57ABD000472A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEE1C4C1DE57ABD000472A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAEE1C4E1DE57ABD000472A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAEE1C3C1DE57ABD000472A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5E7F7D81D512EE894B05AC /* Pods_fotovk.framework in Frameworks */,
+				FAE3F6FC1E1FFAA000DFD14C /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BCE686F4EB679658CDE6194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D312D18200BA2EB099071871 /* Pods-fotovk.debug.xcconfig */,
+				684035DB9A000AFEDD492235 /* Pods-fotovk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		69482C41497B4781E01CA940 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3F6FB1E1FFAA000DFD14C /* CloudKit.framework */,
+				427FF2A14AF69EE0626163B9 /* Pods_fotovk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA63B3FB1DEEE55500916CF0 /* pic */ = {
+			isa = PBXGroup;
+			children = (
+				FADC1E3B1E0D0F7300FD6A2B /* icl.png */,
+				FA63B3FE1DEEE5B000916CF0 /* vkhome.png */,
+				FA63B3FC1DEEE5A100916CF0 /* vklink.png */,
+			);
+			name = pic;
+			sourceTree = "<group>";
+		};
+		FAEE1C361DE57ABD000472A5 = {
+			isa = PBXGroup;
+			children = (
+				FAEE1C411DE57ABD000472A5 /* fotovk */,
+				FAEE1C401DE57ABD000472A5 /* Products */,
+				3BCE686F4EB679658CDE6194 /* Pods */,
+				69482C41497B4781E01CA940 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FAEE1C401DE57ABD000472A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAEE1C3F1DE57ABD000472A5 /* fotovk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAEE1C411DE57ABD000472A5 /* fotovk */ = {
+			isa = PBXGroup;
+			children = (
+				FA8B3EF81E1FF96400DE4BEE /* fotovk.entitlements */,
+				FAEE1C421DE57ABD000472A5 /* AppDelegate.swift */,
+				FA0E82801E2FEEB10008E42A /* ButtonSet.swift */,
+				FA0E82821E3003CD0008E42A /* DesignTextField.swift */,
+				FA71C34B1DE5853D00B7DA9B /* fotovkdelegate.swift */,
+				FAA812611E02CDD200B9C1EE /* ViewController2.swift */,
+				FA0E827E1E2F9CAB0008E42A /* ViewController3.swift */,
+				FA2D2F0F1DE57B7B00F4B728 /* fotovkbase.swift */,
+				FA37F13B1DE58EDF0060CDFD /* ViewControllerTableLink.swift */,
+				FA75B7CC1E0A58E3007D9251 /* fotovkgetuser.swift */,
+				FAA8125D1E02C16100B9C1EE /* CollectionViewCell.swift */,
+				FAA8125F1E02C1A600B9C1EE /* PicViewController.swift */,
+				FAEE1C461DE57ABD000472A5 /* Main.storyboard */,
+				FAEE1C491DE57ABD000472A5 /* Assets.xcassets */,
+				FAEE1C4B1DE57ABD000472A5 /* LaunchScreen.storyboard */,
+				FAEE1C4E1DE57ABD000472A5 /* Info.plist */,
+				FA63B3FB1DEEE55500916CF0 /* pic */,
+			);
+			path = fotovk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAEE1C3E1DE57ABD000472A5 /* fotovk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAEE1C511DE57ABD000472A5 /* Build configuration list for PBXNativeTarget "fotovk" */;
+			buildPhases = (
+				903569CF301DE6E9B23B5D99 /* [CP] Check Pods Manifest.lock */,
+				FAEE1C3B1DE57ABD000472A5 /* Sources */,
+				FAEE1C3C1DE57ABD000472A5 /* Frameworks */,
+				FAEE1C3D1DE57ABD000472A5 /* Resources */,
+				BE577336F52498DD640147B1 /* [CP] Embed Pods Frameworks */,
+				5684478CBECBCF1B4E9E6D58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fotovk;
+			productName = fotovk;
+			productReference = FAEE1C3F1DE57ABD000472A5 /* fotovk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAEE1C371DE57ABD000472A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Alex.Stepanoff;
+				TargetAttributes = {
+					FAEE1C3E1DE57ABD000472A5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Q52S8YV563;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FAEE1C3A1DE57ABD000472A5 /* Build configuration list for PBXProject "fotovk" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAEE1C361DE57ABD000472A5;
+			productRefGroup = FAEE1C401DE57ABD000472A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAEE1C3E1DE57ABD000472A5 /* fotovk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAEE1C3D1DE57ABD000472A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC1E3C1E0D0F7300FD6A2B /* icl.png in Resources */,
+				FA63B3FF1DEEE5B000916CF0 /* vkhome.png in Resources */,
+				FA63B3FD1DEEE5A100916CF0 /* vklink.png in Resources */,
+				FAEE1C4D1DE57ABD000472A5 /* LaunchScreen.storyboard in Resources */,
+				FAEE1C4A1DE57ABD000472A5 /* Assets.xcassets in Resources */,
+				FAEE1C481DE57ABD000472A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5684478CBECBCF1B4E9E6D58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fotovk/Pods-fotovk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		903569CF301DE6E9B23B5D99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BE577336F52498DD640147B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-fotovk/Pods-fotovk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAEE1C3B1DE57ABD000472A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA0E827F1E2F9CAB0008E42A /* ViewController3.swift in Sources */,
+				FAA812621E02CDD200B9C1EE /* ViewController2.swift in Sources */,
+				FAEE1C431DE57ABD000472A5 /* AppDelegate.swift in Sources */,
+				FAA8125E1E02C16100B9C1EE /* CollectionViewCell.swift in Sources */,
+				FAA812601E02C1A600B9C1EE /* PicViewController.swift in Sources */,
+				FA2D2F101DE57B7B00F4B728 /* fotovkbase.swift in Sources */,
+				FA0E82831E3003CD0008E42A /* DesignTextField.swift in Sources */,
+				FA0E82811E2FEEB10008E42A /* ButtonSet.swift in Sources */,
+				FA71C34C1DE5853D00B7DA9B /* fotovkdelegate.swift in Sources */,
+				FA75B7CD1E0A58E3007D9251 /* fotovkgetuser.swift in Sources */,
+				FA37F13C1DE58EDF0060CDFD /* ViewControllerTableLink.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAEE1C461DE57ABD000472A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEE1C471DE57ABD000472A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAEE1C4B1DE57ABD000472A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAEE1C4C1DE57ABD000472A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAEE1C4F1DE57ABD000472A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAEE1C501DE57ABD000472A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAEE1C521DE57ABD000472A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D312D18200BA2EB099071871 /* Pods-fotovk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fotovk/fotovk.entitlements;
+				DEVELOPMENT_TEAM = Q52S8YV563;
+				INFOPLIST_FILE = fotovk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.nu-foto.fotovk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fcdcc59f-0a54-4f90-8fee-f64721d5f5ae";
+				PROVISIONING_PROFILE_SPECIFIER = fotovk_development_my_iphone;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FAEE1C531DE57ABD000472A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684035DB9A000AFEDD492235 /* Pods-fotovk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = fotovk/fotovk.entitlements;
+				DEVELOPMENT_TEAM = Q52S8YV563;
+				INFOPLIST_FILE = fotovk/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.nu-foto.fotovk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fcdcc59f-0a54-4f90-8fee-f64721d5f5ae";
+				PROVISIONING_PROFILE_SPECIFIER = fotovk_development_my_iphone;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAEE1C3A1DE57ABD000472A5 /* Build configuration list for PBXProject "fotovk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEE1C4F1DE57ABD000472A5 /* Debug */,
+				FAEE1C501DE57ABD000472A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAEE1C511DE57ABD000472A5 /* Build configuration list for PBXNativeTarget "fotovk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAEE1C521DE57ABD000472A5 /* Debug */,
+				FAEE1C531DE57ABD000472A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAEE1C371DE57ABD000472A5 /* Project object */;
+}

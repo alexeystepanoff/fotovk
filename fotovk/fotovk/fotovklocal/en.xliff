@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="fotovk/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body/>
+  </file>
+  <file original="fotovk/Base.lproj/Main.storyboard" source-language="en" target-language="ru" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="0f5-gQ-hAF.title">
+        <source>pics</source>
+	<target>картинки</target>
+        <note>Class = "UITabBarItem"; title = "pics"; ObjectID = "0f5-gQ-hAF";</note>
+      </trans-unit>
+      <trans-unit id="4bm-6A-5eP.title">
+        <source>Title</source>
+        <note>Class = "UINavigationItem"; title = "Title"; ObjectID = "4bm-6A-5eP";</note>
+      </trans-unit>
+      <trans-unit id="ABg-H4-sBw.normalTitle">
+        <source>Check</source>
+	<target>Проверить</target>
+        <note>Class = "UIButton"; normalTitle = "Check"; ObjectID = "ABg-H4-sBw";</note>
+      </trans-unit>
+      <trans-unit id="Aql-ct-0Tg.normalTitle">
+        <source>Cancel</source>
+	<target>Отмена</target>
+        <note>Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "Aql-ct-0Tg";</note>
+      </trans-unit>
+      <trans-unit id="M7q-X9-nZd.normalTitle">
+        <source>Save</source>
+	<target>Сохранить</target>
+        <note>Class = "UIButton"; normalTitle = "Save"; ObjectID = "M7q-X9-nZd";</note>
+      </trans-unit>
+      <trans-unit id="kgw-NM-7Ci.title">
+        <source>Links</source>
+	<target>Ссылки</target>
+        <note>Class = "UINavigationItem"; title = "Links"; ObjectID = "kgw-NM-7Ci";</note>
+      </trans-unit>
+      <trans-unit id="oU5-ql-bAS.title">
+        <source>link</source>
+	<target>Адрес</target>
+        <note>Class = "UITabBarItem"; title = "link"; ObjectID = "oU5-ql-bAS";</note>
+      </trans-unit>
+      <trans-unit id="vtA-tc-TnT.placeholder">
+        <source>press id or link</source>
+	<target>Введите id или адрес</target>
+        <note>Class = "UITextField"; placeholder = "press id or link"; ObjectID = "vtA-tc-TnT";</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="fotovk/Info.plist" source-language="en" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="8.2.1" build-num="8C1002"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName">
+        <source>fotovk</source>
+      </trans-unit>
+      <trans-unit id="CFBundleName">
+        <source>$(PRODUCT_NAME)</source>
+      </trans-unit>
+      <trans-unit id="CFBundleShortVersionString">
+        <source>1.0</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
