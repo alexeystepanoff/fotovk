@@ -16,24 +16,15 @@ func writepicstobase()
         let resultpic = try! Realm().objects(fotovkpics.self).sorted(byProperty: "fotovkpicdate")
     let realm = try! Realm()
     let results = try! Realm().objects(fotovkbase.self).sorted(byProperty: "fotovkid")
-    //        var lists : Results<fotovkbase>!
-    //  очищаем таблицу
-    
     try! realm.write {
         realm.delete(resultpic)
     }
-    
-    
-    
     for person in results {
-        
         let nameid = String(person.fotovkid)
         let namestring = String(person.fotovknamescreen)
         let toDayminus30 = Calendar.current.date(byAdding: .day, value: -30, to: Date())?.timeIntervalSince1970
         let toDayInt: Int = Int(toDayminus30!)
-        
         var flagvk: Bool = true
-        
         var preparedReq3 = VK.API.Photos.getAll()
         preparedReq3.add(parameters: [VK.Arg.ownerId : nameid])
         preparedReq3.add(parameters: [VK.Arg.extended : "0"])
@@ -54,9 +45,7 @@ func writepicstobase()
                     pastLink.fotovkpiciown = vk2ownedid
                     pastLink.fotovkpicdate = vk2date
                     pastLink.fotovkpiclinks = vk2photo807
-                    pastLink.fotovkpicowner = namestring!
-                    // Get the default Realm
-                    
+                    pastLink.fotovkpicowner = namestring!                  
                     if (pastLink.fotovkpicid != nil && pastLink.fotovkpiciown != nil && pastLink.fotovkpicdate != nil && pastLink.fotovkpiclinks != "" && flagvk == true && pastLink.fotovkpicdate > toDayInt)
                     {
                         let realm = try! Realm()
@@ -92,8 +81,6 @@ func writepicstobase()
                     pastLink.fotovkpicdate = vk2date
                     pastLink.fotovkpiclinks = vk2photo807
                     pastLink.fotovkpicowner = namestring!
-                    // Get the default Realm
-                    
                     if (pastLink.fotovkpicid != nil && pastLink.fotovkpiciown != nil && pastLink.fotovkpicdate != nil && pastLink.fotovkpiclinks != "" && flagvk2 == true && pastLink.fotovkpicdate > toDayInt)
                     {
                         let realm = try! Realm()
@@ -103,10 +90,8 @@ func writepicstobase()
                         }
                     }
                 }
-                
         }, onError: {error in(error)}
             
         )
-    
 }
 }

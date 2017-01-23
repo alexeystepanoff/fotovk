@@ -29,8 +29,8 @@ class ViewControllerTableLink: UIViewController, UITableViewDelegate, UITableVie
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let object = results[indexPath.row]
+        cell.textLabel?.textColor = UIColor.white
         cell.textLabel?.text = object.fotovknamescreen
-        
         return cell
     }
 
@@ -39,8 +39,7 @@ class ViewControllerTableLink: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-        
+        if editingStyle == .delete {        
             try! realm.write {
                 let item1 = results[indexPath.row]
                 var selectedRecord = results[indexPath.row].fotovkid
@@ -63,13 +62,10 @@ class ViewControllerTableLink: UIViewController, UITableViewDelegate, UITableVie
                         print(error)
                     }
                 })
-
                 realm.delete(item1)
             }
         }
-        
         readDataendUpdateUI()
-
     }
     
     override func viewDidLoad() {
@@ -129,24 +125,18 @@ class ViewControllerTableLink: UIViewController, UITableViewDelegate, UITableVie
                 if arrayfotovks.count != 0 {
 for i in 0...arrayfotovks.count
 {
-    
     let arrayfotovk = arrayfotovks[i]
         pastLink.fotovkid = arrayfotovk.object(forKey: "fotovkid") as! Int
     pastLink.fotovknamefirst = arrayfotovk.object(forKey: "fotovknamefirst") as! String
     pastLink.fotovknamelast = arrayfotovk.object(forKey: "fotovknamelast") as! String
     pastLink.fotovknamescreen = arrayfotovk.object(forKey: "fotovknamescreen") as! String
     let realm = try! Realm()
-    
     try! realm.write {
         realm.add(pastLink)
         self.tableview.reloadData()
     }
-
-    
                     }
-                 
                 }
-            
             }
         })
         

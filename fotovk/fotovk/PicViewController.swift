@@ -18,16 +18,10 @@ class PicViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     
-    @IBAction func sendtoicloud(_ sender: UIBarButtonItem) {
-       
-
+    @IBAction func sendtoicloud(_ sender: UIBarButtonItem) {       
         let alertController = UIAlertController(title: "upload image", message: "Save to Library?", preferredStyle: .alert)
-        
-        
         let OKAction = UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction!) in
-
             var textfile: String = (self.photoURL?.absoluteString)!
-            
             for character in (textfile.characters) {
                 if character == "/" {
                     let startIndex = textfile.characters.startIndex
@@ -37,24 +31,14 @@ class PicViewController: UIViewController {
                     textfile = textfile[text5..<textfile.endIndex]
                 }
             }
-            
             let originalphoto = UIImageJPEGRepresentation(self.imageView.image!, 100)
             let imageFromData = UIImage(data: originalphoto!)
             UIImageWriteToSavedPhotosAlbum(imageFromData!, nil, nil, nil)
-            
-        
     }
-    
         alertController.addAction(OKAction)
-        
-        
         let cancelAction = UIAlertAction(title: "Cancel", style: .default, handler: nil)
-
         alertController.addAction(cancelAction)
-        
-        
         self.present(alertController, animated: true, completion:nil)
-     
     }
    
     
