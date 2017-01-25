@@ -7,22 +7,22 @@
 
 Зайти на вкладку «link»
 
-![закладка link](https://github.com/alexeystepanoff/fotovk/tree/master/pic/fotovkexample1.png)
+![закладка link](https://github.com/alexeystepanoff/fotovk/blob/master/pic/fotovkexample1.png)
 
 В верхнем правом углу нажать на «+»
 
 В новом экране в поле «ID» необходимо указать ссылку на страницу в контакте, например https://vk.com/durov или указать ID страницы, например «durov».
 Далее нажимаем клавишу «check»
 
-![закладка link](https://github.com/alexeystepanoff/fotovk/tree/master/pic/fotovkexample2.png)
+![закладка link](https://github.com/alexeystepanoff/fotovk/blob/master/pic/fotovkexample2.png)
 
 В случаем успешного поиска станицы, необходимо отметить правильный вариант и нажать на «Save»
 
-![закладка link](https://github.com/alexeystepanoff/fotovk/tree/master/pic/fotovkexample3.png)
+![закладка link](https://github.com/alexeystepanoff/fotovk/blob/master/pic/fotovkexample3.png)
 
 Сохраненная ссылка появится в закладке «link»
 
-![закладка link](https://github.com/alexeystepanoff/fotovk/tree/master/pic/fotovkexample4.png)
+![закладка link](https://github.com/alexeystepanoff/fotovk/blob/master/pic/fotovkexample4.png)
 
 ### Просмотр фотографий ###
 
